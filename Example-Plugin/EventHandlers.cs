@@ -18,7 +18,7 @@ namespace Example_Plugin
 
         private void CassieMessage()
         {
-            Cassie.MessageTranslated("", "", isHeld: false, isNoisy: false, isSubtitles: true); //Pour faire un message cassie debut de game
+            Cassie.MessageTranslated("", "", isHeld: false, isNoisy: false, isSubtitles: true); //Dans la premiere "" vous mettez le message cassie qui est envoie mais pas affichier dans la deuxième "" vous mettez le message cassie
             Map.TurnOffAllLights(4); //Pour éteindre les lumiére pendant 4Seconde
         }
     }
